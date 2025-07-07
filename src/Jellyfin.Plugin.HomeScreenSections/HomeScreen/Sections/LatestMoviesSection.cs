@@ -17,7 +17,7 @@ namespace Jellyfin.Plugin.HomeScreenSections.HomeScreen.Sections
     {
         public string? Section => "LatestMovies";
         
-        public string? DisplayText { get; set; } = "Latest Movies";
+        public string? DisplayText { get; set; } = "Derniers films";
         
         public int? Limit => 1;
 
