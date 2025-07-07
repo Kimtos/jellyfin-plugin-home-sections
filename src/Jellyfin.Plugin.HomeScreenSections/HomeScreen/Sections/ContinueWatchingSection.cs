@@ -23,7 +23,7 @@ namespace Jellyfin.Plugin.HomeScreenSections.HomeScreen.Sections
         public string? Section => "ContinueWatching";
 
         /// <inheritdoc/>
-        public string? DisplayText { get; set; } = "Continue Watching";
+        public string? DisplayText { get; set; } = "Continuer à regarder";
 
         /// <inheritdoc/>
         public int? Limit => 1;
