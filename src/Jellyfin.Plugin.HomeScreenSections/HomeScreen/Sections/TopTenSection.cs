@@ -27,7 +27,7 @@ public class TopTenSection : IHomeScreenSection
     private readonly ICollectionManager m_collectionManager;
     private readonly IDtoService m_dtoService;
     public string? Section => "TopTen";
-    public string? DisplayText { get; set; } = "Top Ten";
+    public string? DisplayText { get; set; } = "Top 10";
     public int? Limit => 2;
     public string? Route => null;
     public string? AdditionalData { get; set; } = null;
@@ -86,7 +86,7 @@ public class TopTenSection : IHomeScreenSection
             return new TopTenSection(m_userManager, m_collectionManager, m_dtoService)
             {
                 AdditionalData = TopTenType.Movies.ToString(),
-                DisplayText = $"{DisplayText} Movies",
+                DisplayText = $"{DisplayText} Films",
                 Type = TopTenType.Movies,
             };
         }
@@ -100,7 +100,7 @@ public class TopTenSection : IHomeScreenSection
             return new TopTenSection(m_userManager, m_collectionManager, m_dtoService)
             {
                 AdditionalData = TopTenType.Shows.ToString(),
-                DisplayText = $"{DisplayText} Shows",
+                DisplayText = $"{DisplayText} Séries",
                 Type = TopTenType.Shows,
             };
         }
