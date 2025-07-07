@@ -21,7 +21,7 @@ namespace Jellyfin.Plugin.HomeScreenSections.HomeScreen.Sections
         public string Section => "MyMedia";
 
         /// <inheritdoc/>
-        public string? DisplayText { get; set; } = "My Media";
+        public string? DisplayText { get; set; } = "Mes Medias";
 
         /// <inheritdoc/>
         public int? Limit => 1;
