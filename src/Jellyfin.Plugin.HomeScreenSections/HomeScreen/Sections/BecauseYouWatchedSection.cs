@@ -19,7 +19,7 @@ namespace Jellyfin.Plugin.HomeScreenSections.HomeScreen.Sections
 	{
 		public string? Section => "BecauseYouWatched";
 
-		public string? DisplayText { get; set; } = "Because You Watched";
+		public string? DisplayText { get; set; } = "Parce que vous avez regardé";
 
 		public int? Limit => 5;
 
@@ -109,7 +109,7 @@ namespace Jellyfin.Plugin.HomeScreenSections.HomeScreen.Sections
 			BaseItem item = recentlyPlayedMovies.ElementAt(rnd.Next(0, recentlyPlayedMovies.Count));
 
 			section.AdditionalData = item.Id.ToString();
-			section.DisplayText = "Because You Watched " + item.Name;
+			section.DisplayText = "Parce que vous avez regardé " + item.Name;
 
 			return section;
 		}
