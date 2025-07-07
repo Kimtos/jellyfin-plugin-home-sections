@@ -17,7 +17,7 @@ namespace Jellyfin.Plugin.HomeScreenSections.HomeScreen.Sections
 	{
 		public string? Section => "MyList";
 
-		public string? DisplayText { get; set; } = "My List";
+		public string? DisplayText { get; set; } = "Ma Liste";
 
 		public int? Limit => 1;
 
