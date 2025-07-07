@@ -19,7 +19,7 @@ namespace Jellyfin.Plugin.HomeScreenSections.HomeScreen.Sections
     {
         public string? Section => "LatestShows";
         
-        public string? DisplayText { get; set; } = "Latest Shows";
+        public string? DisplayText { get; set; } = "Dernières Séries";
         
         public int? Limit => 1;
         
