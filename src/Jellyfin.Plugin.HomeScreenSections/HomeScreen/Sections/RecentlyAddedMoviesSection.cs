@@ -23,7 +23,7 @@ namespace Jellyfin.Plugin.HomeScreenSections.HomeScreen.Sections
         public string? Section => "RecentlyAddedMovies";
 
         /// <inheritdoc/>
-        public string? DisplayText { get; set; } = "Recently Added Movies";
+        public string? DisplayText { get; set; } = "Films ajoutés récemment";
 
         /// <inheritdoc/>
         public int? Limit => 1;
