@@ -40,7 +40,7 @@ namespace Jellyfin.Plugin.HomeScreenSections.HomeScreen.Sections
 
 		public string? Section => "WatchAgain";
 
-		public string? DisplayText { get; set; } = "Watch It Again";
+		public string? DisplayText { get; set; } = "Regarder à nouveau";
 
 		public int? Limit => 1;
 
