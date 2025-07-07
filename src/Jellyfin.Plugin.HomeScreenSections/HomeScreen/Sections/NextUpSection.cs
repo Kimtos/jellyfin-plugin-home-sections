@@ -24,7 +24,7 @@ namespace Jellyfin.Plugin.HomeScreenSections.HomeScreen.Sections
         public string Section => "NextUp";
 
         /// <inheritdoc/>
-        public string? DisplayText { get; set; } = "Next Up";
+        public string? DisplayText { get; set; } = "À suivre";
 
         /// <inheritdoc/>
         public int? Limit => 1;
